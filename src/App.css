@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+  width: 50%
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  cursor: pointer;
+}
+tr:hover{
+  background: grey;
+  color: white
+}
+.list-container{
+margin: auto;
+padding: 30px;
+width : 900px
+}
+.buttons-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px
+}
+.nav-button{
+padding: 10px;
+cursor: pointer;
+background: green;
+color: white;
+border-radius: 3px;
+border: 1px solid green;
+}
+#disabled{
+  background: grey;
+  cursor: not-allowed;
+}
+.details-container{
+  display: flex;
+  justify-content: space-between;
+}
+.details{
+  text-align: left;
+}
+.title-tenure{
+  display: flex;
+  align-items: center;
+}
+.title-tenure h2{
+  margin: 0
+}
+.title-tenure span{
+  margin-left: 20px;
+  padding: 5px;
+  color: white;
+  background: green;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.pin-text{
+  width: 150px;
+  font-size: 16px;
+}
+.back-button{
+  margin-right: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .list-container{
+    width: 85%;
+    padding: 30px 10px 0
+  }
+
+  table{
+    width: 90%
+  }
+  .buttons-wrapper{
+    width: 85%
+  }
+}
