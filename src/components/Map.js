@@ -25,7 +25,7 @@ const Map = ({ location }) => {
     <div style={{ height: "60vh", width: "80%" }}>
       {location.Y ? (
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyCdkYPEiT0XKpDugWvRYUC7YWI6o_hfDDg" }} //This practise is not advisable tho
+          bootstrapURLKeys={{ key: "" }} //This practise is not advisable tho
           defaultCenter={cordinate}
           defaultZoom={11}
         >
